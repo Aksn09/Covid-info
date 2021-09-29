@@ -26,7 +26,7 @@
     padding: 5px;
     width: 35%;
 }
-img:hover {
+.hov:hover {
     box-shadow: 0 0 5px 5px rgb(223, 176, 176);
   }
 .div-info{
@@ -144,4 +144,19 @@ h2{
     text-align: center;
     margin-bottom: 2px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.github{
+    width:4%;
+    float: initial;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform .2s; /* Animation */
+}
+
+.github:hover {
+    transform: scale(0.8); 
+    background-color: whitesmoke;
+    border-radius: 2.01em;
 }
